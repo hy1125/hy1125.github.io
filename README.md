@@ -1,2 +1,2 @@
 # Pufferfishes.github.io
-blog
+blog   [https://Pufferfishes.github.io/MotionRevealSlideshow](https://Pufferfishes.github.io/MotionRevealSlideshow/)
