@@ -1,5 +1,4 @@
-# Pufferfishes.github.io
-# blog   
+# Blog   
 ## MotionRevealSlideshow
 [https://Pufferfishes.github.io/MotionRevealSlideshow](https://Pufferfishes.github.io/MotionRevealSlideshow/)
 ## RecordPlayer
