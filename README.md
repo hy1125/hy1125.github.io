@@ -1,2 +1,6 @@
 # Pufferfishes.github.io
-blog   [https://Pufferfishes.github.io/MotionRevealSlideshow](https://Pufferfishes.github.io/MotionRevealSlideshow/)
+blog   
+## MotionRevealSlideshow
+[https://Pufferfishes.github.io/MotionRevealSlideshow](https://Pufferfishes.github.io/MotionRevealSlideshow/)
+## RecordPlayer
+[https://Pufferfishes.github.io/RecordPlayer](https://Pufferfishes.github.io/RecordPlayer/)
