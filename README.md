@@ -1,7 +1,7 @@
 # Blog   
 ## MotionRevealSlideshow
-[https://Pufferfishes.github.io/MotionRevealSlideshow](https://Pufferfishes.github.io/MotionRevealSlideshow/)
+[https://hy1125.github.io/MotionRevealSlideshow](https://hy1125.github.io/MotionRevealSlideshow/)
 ## RecordPlayer
-[https://Pufferfishes.github.io/RecordPlayer](https://Pufferfishes.github.io/RecordPlayer/)
+[https://hy1125.github.io/RecordPlayer](https://hy1125.github.io/RecordPlayer/)
 ## NodeJs
-[NodeJs文档](https://Pufferfishes.github.io/docs/)
+[NodeJs文档](https://hy1125.github.io/docs/)
