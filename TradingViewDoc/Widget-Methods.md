@@ -57,9 +57,9 @@ widget.onChartReady(function() {
   * [addCustomCSSFile\(url\)](Widget-Methods.md#addcustomcssfileurl)
   * [applyOverrides\(overrides\)](Widget-Methods.md#applyoverridesoverrides)
   * [applyStudiesOverrides\(overrides\)](Widget-Methods.md#applystudiesoverridesoverrides)
-* ![](../images/trading.png)[交易终端特制](Trading-Terminal.md)
+* ![](/images/trading.png)[交易终端特制](Trading-Terminal.md)
   * [watchList\(\)](Widget-Methods.md#watchlist)
-* ![](../images/trading.png)多图表布局
+* ![](/images/trading.png)多图表布局
   * [chart\(index\)](Widget-Methods.md#chartindex)
   * [activeChart\(\)](Widget-Methods.md#activechart)
   * [chartsCount\(\)](Widget-Methods.md#chartscount)
@@ -159,9 +159,9 @@ widget.onShortcut("alt+s", function() {
 | onMarkClick |  | 每次当用户点击K线上的标记时。[mark on bar](Marks-On-Bars). 标记ID将作为参数传递。 |
 | onTimescaleMarkClick |  | 每当用户单击时间刻度标记时，将调用回调。 标记ID将作为参数传递 |
 | onSelectedLineToolChanged |  | 每次当选择的线工具更改时，将调用回调。 |
-| ![](../images/trading.png)layout\_about\_to\_be\_changed |  | 要更改图表的数量或位置时 |
-| ![](../images/trading.png)layout\_changed |  | 已经更改图表的数量或位置时 |
-| ![](../images/trading.png)activeChartChanged |  | 活动图表被更改 |
+| ![](images/trading.png)layout\_about\_to\_be\_changed |  | 要更改图表的数量或位置时 |
+| ![](images/trading.png)layout\_changed |  | 已经更改图表的数量或位置时 |
+| ![](images/trading.png)activeChartChanged |  | 活动图表被更改 |
 
 2.`callback`: function\(arguments\)
 
