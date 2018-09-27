@@ -49,7 +49,7 @@ SymbolInfo是一个包含商品metadata的对象。 该对象是解析商品的�
 
 ##### [session](#session)
 
-商品交易时间。请参阅交易日细节了解更多详情。[交易时段](/book/Trading-Sessions.md)
+商品交易时间。请参阅交易日细节了解更多详情。[交易时段](Trading-Sessions.md)
 
 ##### [exchange, listed\_exchange](#exchange-listedexchange)
 

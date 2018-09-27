@@ -10,7 +10,7 @@
 
 #### configFlags: object
 
-这是一个应该在交易终端的构造函数中传递给[brokerConfig](/book/Widget-Constructor.md#brokerConfig)的对象。 每个字段应该有一个布尔值（`true` /`false`）：
+这是一个应该在交易终端的构造函数中传递给[brokerConfig](Widget-Constructor.md#brokerConfig)的对象。 每个字段应该有一个布尔值（`true` /`false`）：
 
 * `supportReversePosition`
 

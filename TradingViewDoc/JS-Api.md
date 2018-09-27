@@ -5,7 +5,7 @@
 **这是啥?** 一套JS方法（以实现指定的公共接口）。  
 **我该怎么使用它?**: 您应该创建一个JS对象，它将以某种方式接收数据，并响应图表库的请求。
 
-在图表库中实现了数据缓存（历史和商品信息）。当您创建一个实现接口的对象时，只需将它传递给图表库[Widget的构造函数](/book/Widget-Constructor.md)。
+在图表库中实现了数据缓存（历史和商品信息）。当您创建一个实现接口的对象时，只需将它传递给图表库[Widget的构造函数](Widget-Constructor.md)。
 
 # [Methods](#methods)
 
@@ -57,7 +57,7 @@ configurationData是一个对象，现在支持以下属性:
 
 ##### [supported\_resolutions](#supportedresolutions)
 
-一个表示服务器支持的周期数组，周期可以是数字或字符串。 如果周期是一个数字，它被视为分钟数。 字符串可以是“\*D”，“\*W”，“\_M”（\_的意思是任何数字）。格式化详细参照:[文章](/book/Resolution.md)。
+一个表示服务器支持的周期数组，周期可以是数字或字符串。 如果周期是一个数字，它被视为分钟数。 字符串可以是“\*D”，“\*W”，“\_M”（\_的意思是任何数字）。格式化详细参照:[文章](Resolution.md)。
 
 `resolutions = undefined` 或 `resolutions = []` 时，周期拥有默认内容。
 
@@ -106,20 +106,20 @@ configurationData是一个对象，现在支持以下属性:
 ]
 ```
 
-如果没有找到商品，则应该使用空数组来调用回调。查看更多关于`ticker`的细节 [在这里](/book/Symbology.md#ticker)
+如果没有找到商品，则应该使用空数组来调用回调。查看更多关于`ticker`的细节 [在这里](Symbology.md#ticker)
 
 ### [resolveSymbol\(symbolName, onSymbolResolvedCallback, onResolveErrorCallback\)](#resolvesymbolsymbolname-onsymbolresolvedcallback-onresolveerrorcallback)
 
 1. `symbolName`: string类型，商品名称 或`ticker`
    if provided.
-2. `onSymbolResolvedCallback`: function\([SymbolInfo](/book/Symbology.md#商品信息结构)\)
+2. `onSymbolResolvedCallback`: function\([SymbolInfo](Symbology.md#商品信息结构)\)
 3. `onResolveErrorCallback`: function\(reason\)
 
-方法介绍：通过商品名称解析商品信息\([SymbolInfo](/book/Symbology.md#商品信息结构)\)。
+方法介绍：通过商品名称解析商品信息\([SymbolInfo](Symbology.md#商品信息结构)\)。
 
 ### [getBars\(symbolInfo, resolution, from, to, onHistoryCallback, onErrorCallback, firstDataRequest\)](#getbarssymbolinfo-resolution-from-to-onhistorycallback-onerrorcallback-firstdatarequest)
 
-1. `symbolInfo`:[SymbolInfo](/book/Symbology.md#商品信息结构) 商品信息对象
+1. `symbolInfo`:[SymbolInfo](Symbology.md#商品信息结构) 商品信息对象
 2. `resolution`: string （周期）
 3. `from`: unix 时间戳, 最左边请求的K线时间
 4. `to`: unix 时间戳, 最右边请求的K线时间
@@ -140,13 +140,13 @@ configurationData是一个对象，现在支持以下属性:
 
 **Remark**:`bar.time`为以毫秒开始的Unix时间戳（UTC标准时区）。
 
-**Remark**:`bar.time`对于日K线预期一个交易日 \(未开始交易时\) 以 00:00 UTC为起点。 图表库会根据商品的交易（[Session](/book/Symbology.md#session)）时间进行匹配。
+**Remark**:`bar.time`对于日K线预期一个交易日 \(未开始交易时\) 以 00:00 UTC为起点。 图表库会根据商品的交易（[Session](Symbology.md#session)）时间进行匹配。
 
 **Remark**:`bar.time`对于月K线为这个月的第一个交易日，除去时间的部分。
 
 ### [subscribeBars\(symbolInfo, resolution, onRealtimeCallback, subscriberUID, onResetCacheNeededCallback\)](#subscribebarssymbolinfo-resolution-onrealtimecallback-subscriberuid-onresetcacheneededcallback)
 
-1. `symbolInfo`:object [SymbolInfo](/book/Symbology.md#商品信息结构)
+1. `symbolInfo`:object [SymbolInfo](Symbology.md#商品信息结构)
 2. `resolution`: string 周期
 3. `onRealtimeCallback`: function\(bar\)
    1. `bar`: object`{time, close, open, high, low, volume}`
@@ -208,7 +208,7 @@ Datafeed.prototype.calculateHistoryDepth = function(resolution, resolutionBack, 
 
 ### [getMarks\(symbolInfo, startDate, endDate, onDataCallback, resolution\)](#getmarkssymbolinfo-startdate-enddate-ondatacallback-resolution)
 
-1. `symbolInfo`:[SymbolInfo](/book/Symbology.md#商品信息结构) 商品信息对象
+1. `symbolInfo`:[SymbolInfo](Symbology.md#商品信息结构) 商品信息对象
 2. `startDate`:  unix 时间戳, 最左边请求的K线时间
 3. `endDate`: unix 时间戳, 最右边请求的K线时间
 4. `onDataCallback`: function\(标记数字`marks`\)
@@ -218,7 +218,7 @@ Datafeed.prototype.calculateHistoryDepth = function(resolution, resolutionBack, 
     
 `mark`为具有以下属性的对象:
 
-* **id**: 唯一标识id 。当用户点击标记时，将传递给相应的回调:[respective callback](/book/Widget-Methods.md#onbarmarkclickedcallback) 
+* **id**: 唯一标识id 。当用户点击标记时，将传递给相应的回调:[respective callback](Widget-Methods.md#onbarmarkclickedcallback) 
 * **time**: unix time, UTC
 * **color**:`red`\|`green`\|`blue`\|`yellow`\|`{ border: '#ff0000', background: '#00ff00' }`
 * **text**: 标记弹出式文字。 支持HTML
@@ -228,11 +228,11 @@ Datafeed.prototype.calculateHistoryDepth = function(resolution, resolutionBack, 
 
 每个K线允许几个标记（现在最多为10个）。不允许标记脱离K线。
 
-**Remark**: 只有当您声明您的后端是支持标记时才会调用这个函数。[supporting marks](/book/JS-Api.md#supports_marks).
+**Remark**: 只有当您声明您的后端是支持标记时才会调用这个函数。[supporting marks](JS-Api.md#supports_marks).
 
 ### [getTimescaleMarks\(symbolInfo, startDate, endDate, onDataCallback, resolution\)](#gettimescalemarkssymbolinfo-startdate-enddate-ondatacallback-resolution)
 
-1. `symbolInfo`:[SymbolInfo](/book/Symbology.md#商品信息结构) object
+1. `symbolInfo`:[SymbolInfo](Symbology.md#商品信息结构) object
 2. `startDate`: unix时间戳 \(UTC\). Leftmost visible bar's time.
 3. `endDate`: unix时间戳 \(UTC\). Rightmost visible bar's time.
 4. `onDataCallback`: function\(array of`mark`s\)
@@ -242,7 +242,7 @@ Datafeed.prototype.calculateHistoryDepth = function(resolution, resolutionBack, 
 
 mark为具有以下属性的对象:
 
-* **id**: 唯一标识id 。当用户点击标记时，将传递给相应的回调:[respective callback](/book/Widget-Methods.md#onbarmarkclickedcallback) 
+* **id**: 唯一标识id 。当用户点击标记时，将传递给相应的回调:[respective callback](Widget-Methods.md#onbarmarkclickedcallback) 
 * **time**: unix time, UTC
 * **color**:`red`\|`green`\|`blue`\|`yellow`\| ... \| \#000000
 * **label**: 印在标记上的文字。单字符
@@ -250,7 +250,7 @@ mark为具有以下属性的对象:
 
 每个K线只允许一个标记。 不允许标记脱离K线。
 
-**Remark**: 只有当您声明您的后端是支持标记时才会调用这个函数。[upporting marks](/book/JS-Api.md#supports_timescale_marks).
+**Remark**: 只有当您声明您的后端是支持标记时才会调用这个函数。[upporting marks](JS-Api.md#supports_timescale_marks).
 
 ### [getServerTime\(callback\)](#getservertimecallback)
 
@@ -258,36 +258,36 @@ mark为具有以下属性的对象:
 
 当图表需要知道服务器时间时，如果配置标志`supports_time`设置为`true`，则调用此函数。图表库预期只调用一次回调。所提供的时间没有毫秒。例子：1445324591。它是用来显示倒数的价格范围。
 
-## ![](../images/trading.png)[交易终端专属](#交易终端专属)
+## ![](images/trading.png)[交易终端专属](#交易终端专属)
 
-### ![](../images/trading.png)[getQuotes\(symbols, onDataCallback, onErrorCallback\)](#getquotessymbols-ondatacallback-onerrorcallback)
+### ![](images/trading.png)[getQuotes\(symbols, onDataCallback, onErrorCallback\)](#getquotessymbols-ondatacallback-onerrorcallback)
 
 1. `symbols`: 商品名称数组
 2. `onDataCallback`: function\(array of`data`\)
-   1. `data`:[商品报价数据](/book/Quotes.md#symbol-quote-data)
+   1. `data`:[商品报价数据](Quotes.md#symbol-quote-data)
 3. `onErrorCallback`: function\(reason\)
 
 当图表需要报价数据时，将调用此函数。图表库预期在收到所有请求数据时调用onDataCallback。
 
-### ![](../images/trading.png)[subscribeQuotes\(symbols, fastSymbols, onRealtimeCallback, listenerGUID\)](#subscribequotessymbols-fastsymbols-onrealtimecallback-listenerguid)
+### ![](images/trading.png)[subscribeQuotes\(symbols, fastSymbols, onRealtimeCallback, listenerGUID\)](#subscribequotessymbols-fastsymbols-onrealtimecallback-listenerguid)
 
 1. `symbols`: 很少更新的商品数组（建议频率为每分钟一次）。这些商品在观察列表中，但它们目前不可见。
 2. `fastSymbols`: 频繁更新的商品数组（一次在10秒或更快）
 3. `onRealtimeCallback`: function\(array of`data`\)
-   1. `data`:[商品报价数据](/book/Quotes.md#symbol-quote-data)
+   1. `data`:[商品报价数据](Quotes.md#symbol-quote-data)
 4. `listenerGUID`: 监听的唯一标识符
 
 交易终端当需要接收商品的实时报价时调用此功能。图表预期您每次要更新报价时都会调用`onRealtimeCallback`。
 
-### ![](../images/trading.png)[unsubscribeQuotes\(listenerGUID\)](#unsubscribequoteslistenerguid)
+### ![](images/trading.png)[unsubscribeQuotes\(listenerGUID\)](#unsubscribequoteslistenerguid)
 
 1. `listenerGUID`: 监听的唯一标识符
 
 交易终端当不需要再接收商品的实时报价时调用此函数。当图表库遇到`listenerGUID`相同的对象会跳过`subscribeQuotes`方法。
 
-### ![](../images/trading.png)[subscribeDepth\(symbolInfo, callback\): String](#subscribedepthsymbolinfo-callback-string)
+### ![](images/trading.png)[subscribeDepth\(symbolInfo, callback\): String](#subscribedepthsymbolinfo-callback-string)
 
-1. `symbolInfo`:[SymbolInfo](/book/Symbology.md#商品信息结构) object
+1. `symbolInfo`:[SymbolInfo](Symbology.md#商品信息结构) object
 2. `callback`: function\(depth\)
    1. `depth`: object`{snapshot, asks, bids}`
       1. `snapshot`: Boolean - 如果`true`时`asks`和`bids`具有全部深度，否则只包含更新的级别。
@@ -298,7 +298,7 @@ mark为具有以下属性的对象:
 
 此方法应返回唯一标识（subscriberUID），用于取消订阅数据。
 
-### ![](../images/trading.png)[unsubscribeDepth\(subscriberUID\)](#unsubscribedepthsubscriberuid)
+### ![](images/trading.png)[unsubscribeDepth\(subscriberUID\)](#unsubscribedepthsubscriberuid)
 
 1. `subscriberUID`: String
 

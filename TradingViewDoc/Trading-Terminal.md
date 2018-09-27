@@ -12,7 +12,7 @@
 
 #### 交易功能
 
-您可以通过图表进行交易，您需要做的所有工作就是实现您的[经纪商API](/book/Broker-API.md)并将其接入到图表widget。
+您可以通过图表进行交易，您需要做的所有工作就是实现您的[经纪商API](Broker-API.md)并将其接入到图表widget。
 
 ![](/images/tt_trading.png)
 
@@ -29,7 +29,7 @@
 
 ###### 详细了解此功能：
 
-* [如何启用账户管理器](/book/Account-Manager.md)
+* [如何启用账户管理器](Account-Manager.md)
 
 #### DOM小部件
  
@@ -45,8 +45,8 @@
 
 ###### 详细了解此功能：
 
-* [如何启用侧边栏报价](/book/Widget-Constructor.md#组件工具栏)
-* 如何提供报价数据：取决于您使用什么样的数据集成 --[JS API](/book/JS-Api.md#交易终端专属) 或 [UDF](/book/UDF.md#quotes)
+* [如何启用侧边栏报价](Widget-Constructor.md#组件工具栏)
+* 如何提供报价数据：取决于您使用什么样的数据集成 --[JS API](JS-Api.md#交易终端专属) 或 [UDF](UDF.md#quotes)
 
 #### 侧边栏市场新闻Feed
 
@@ -56,8 +56,8 @@
 
 ###### 详细了解此功能：
 
-* [如何启用侧边栏新闻](/book/Widget-Constructor.md#组件工具栏)
-* [如何设置要使用的Feed](/book/Widget-Constructor.md#rssnewsfeed)
+* [如何启用侧边栏新闻](Widget-Constructor.md#组件工具栏)
+* [如何设置要使用的Feed](Widget-Constructor.md#rssnewsfeed)
 
 #### 多图表布局
 
@@ -83,9 +83,9 @@
 
 # 也可以看看
 
-* [如何将您的交易接口连接到图表](/book/Broker-API.md)
-* [交易终端专用的Widget方法](/book/Widget-Method.md#交易终端专属)
-* [用于交易终端的Widget构造函数参数](/book/Widget-Constructor.md)
+* [如何将您的交易接口连接到图表](Broker-API.md)
+* [交易终端专用的Widget方法](Widget-Method.md#交易终端专属)
+* [用于交易终端的Widget构造函数参数](Widget-Constructor.md)
 
 
 

@@ -1,6 +1,6 @@
 # 订阅
 
-Subscription对象由[Chart Methods](/book/Chart-Methods.md)返回。 使用此对象，您可以订阅图表事件并取消订阅。 所以有两种方法：
+Subscription对象由[Chart Methods](Chart-Methods.md)返回。 使用此对象，您可以订阅图表事件并取消订阅。 所以有两种方法：
 
 ### subscribe(object, method, singleshot)
 

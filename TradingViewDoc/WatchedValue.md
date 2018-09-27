@@ -1,6 +1,6 @@
 # WatchedValue
 
-WatchedValue对象由一些[Trading Terminal](book/Trading-Terminal.md)方法返回。 使用这个对象，你可以获得/设置值，并在值改变时得到通知。
+WatchedValue对象由一些[Trading Terminal](Trading-Terminal.md)方法返回。 使用这个对象，你可以获得/设置值，并在值改变时得到通知。
 
 ### value()
 返回当前值。
