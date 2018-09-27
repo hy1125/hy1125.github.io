@@ -22,49 +22,49 @@ widget.onChartReady(function() {
   * [subscribe\(event, callback\)](#subscribeevent-callback)
   * [unsubscribe\(event, callback\)](#unsubscribeevent-callback)
 * 图表动作
-  * [chart\(\)](/book/Widget-Methods.md#chart)
-  * [setLanguage\(locale\)](/book/Widget-Methods.md#setlanguagelocale)
-  * [setSymbol\(symbol, interval, callback\)](/book/Widget-Methods.md#setsymbolsymbol-interval-callback)
-  * [remove\(\)](/book/Widget-Methods.md#remove)
-  * [closePopupsAndDialogs\(\)](/book/Widget-Methods.md#closepopupsanddialogs)
-  * [selectLineTool\(drawingId\)](/book/Widget-Methods.md#selectlinetooldrawingid)
-  * [selectedLineTool\(\)](/book/Widget-Methods.md#selectedlinetool)
-  * [takeScreenshot\(\)](/book/Widget-Methods.md#takeScreenshot)
-  * [lockAllDrawingTools\(\)](/book/Widget-Methods.md#lockAllDrawingTools)
-  * [hideAllDrawingTools\(\)](/book/Widget-Methods.md#hideAllDrawingTools)
+  * [chart\(\)](Widget-Methods.md#chart)
+  * [setLanguage\(locale\)](Widget-Methods.md#setlanguagelocale)
+  * [setSymbol\(symbol, interval, callback\)](Widget-Methods.md#setsymbolsymbol-interval-callback)
+  * [remove\(\)](Widget-Methods.md#remove)
+  * [closePopupsAndDialogs\(\)](Widget-Methods.md#closepopupsanddialogs)
+  * [selectLineTool\(drawingId\)](Widget-Methods.md#selectlinetooldrawingid)
+  * [selectedLineTool\(\)](Widget-Methods.md#selectedlinetool)
+  * [takeScreenshot\(\)](Widget-Methods.md#takeScreenshot)
+  * [lockAllDrawingTools\(\)](Widget-Methods.md#lockAllDrawingTools)
+  * [hideAllDrawingTools\(\)](Widget-Methods.md#hideAllDrawingTools)
 * 保存/加载图表
-  * [save\(callback\)](/book/Widget-Methods.md#savecallback)
-  * [load\(state\)](/book/Widget-Methods.md#loadstate)
-  * [getSavedCharts\(callback\)](/book/Widget-Methods.md#getsavedchartscallback)
-  * [loadChartFromServer\(chartRecord\)](/book/Widget-Methods.md#loadchartfromserverchartrecord)
-  * [saveChartToServer\(onCompleteCallback, onFailCallback, saveAsSnapshot, options\)](/book/Widget-Methods.md#savecharttoserveroncompletecallback-onfailcallback-saveassnapshot-options)
-  * [removeChartFromServer\(chartId, onCompleteCallback\)](/book/Widget-Methods.md#removechartfromserverchartid-oncompletecallback)
+  * [save\(callback\)](Widget-Methods.md#savecallback)
+  * [load\(state\)](Widget-Methods.md#loadstate)
+  * [getSavedCharts\(callback\)](Widget-Methods.md#getsavedchartscallback)
+  * [loadChartFromServer\(chartRecord\)](Widget-Methods.md#loadchartfromserverchartrecord)
+  * [saveChartToServer\(onCompleteCallback, onFailCallback, saveAsSnapshot, options\)](Widget-Methods.md#savecharttoserveroncompletecallback-onfailcallback-saveassnapshot-options)
+  * [removeChartFromServer\(chartId, onCompleteCallback\)](Widget-Methods.md#removechartfromserverchartid-oncompletecallback)
 * 自定义UI控件
-  * [onContextMenu\(callback\)](/book/Widget-Methods.md#oncontextmenucallback)
-  * [createButton\(options\)](/book/Widget-Methods.md#createbuttonoptions)
+  * [onContextMenu\(callback\)](Widget-Methods.md#oncontextmenucallback)
+  * [createButton\(options\)](Widget-Methods.md#createbuttonoptions)
 * 对话框 
-  * [showNoticeDialog\(params\)](/book/Widget-Methods.md#shownoticedialogparams)
-  * [showConfirmDialog\(params\)](/book/Widget-Methods.md#showconfirmdialogparams)
-  * [showLoadChartDialog\(\)](/book/Widget-Methods.md#showloadchartdialog)
-  * [showSaveAsChartDialog\(\)](/book/Widget-Methods.md#showsaveaschartdialog)
+  * [showNoticeDialog\(params\)](Widget-Methods.md#shownoticedialogparams)
+  * [showConfirmDialog\(params\)](Widget-Methods.md#showconfirmdialogparams)
+  * [showLoadChartDialog\(\)](Widget-Methods.md#showloadchartdialog)
+  * [showSaveAsChartDialog\(\)](Widget-Methods.md#showsaveaschartdialog)
 * Getters
-  * [symbolInterval\(callback\)](/book/Widget-Methods.md#symbolintervalcallback)
-  * [mainSeriesPriceFormatter\(\)](/book/Widget-Methods.md#mainseriespriceformatter)
-  * [getIntervals\(\)](/book/Widget-Methods.md#getintervals)
-  * [getStudiesList\(\)](/book/Widget-Methods.md#getstudieslist)
+  * [symbolInterval\(callback\)](Widget-Methods.md#symbolintervalcallback)
+  * [mainSeriesPriceFormatter\(\)](Widget-Methods.md#mainseriespriceformatter)
+  * [getIntervals\(\)](Widget-Methods.md#getintervals)
+  * [getStudiesList\(\)](Widget-Methods.md#getstudieslist)
 * 定制
-  * [changeTheme\(themeName\)](/book/Widget-Methods.md#changethemethemename)
-  * [addCustomCSSFile\(url\)](/book/Widget-Methods.md#addcustomcssfileurl)
-  * [applyOverrides\(overrides\)](/book/Widget-Methods.md#applyoverridesoverrides)
-  * [applyStudiesOverrides\(overrides\)](/book/Widget-Methods.md#applystudiesoverridesoverrides)
-* ![](../images/trading.png)[交易终端特制](/book/Trading-Terminal.md)
-  * [watchList\(\)](/book/Widget-Methods.md#watchlist)
+  * [changeTheme\(themeName\)](Widget-Methods.md#changethemethemename)
+  * [addCustomCSSFile\(url\)](Widget-Methods.md#addcustomcssfileurl)
+  * [applyOverrides\(overrides\)](Widget-Methods.md#applyoverridesoverrides)
+  * [applyStudiesOverrides\(overrides\)](Widget-Methods.md#applystudiesoverridesoverrides)
+* ![](../images/trading.png)[交易终端特制](Trading-Terminal.md)
+  * [watchList\(\)](Widget-Methods.md#watchlist)
 * ![](../images/trading.png)多图表布局
-  * [chart\(index\)](/book/Widget-Methods.md#chartindex)
-  * [activeChart\(\)](/book/Widget-Methods.md#activechart)
-  * [chartsCount\(\)](/book/Widget-Methods.md#chartscount)
-  * [layout\(\)](/book/Widget-Methods.md#layout)
-  * [setLayout\(layout\)](/book/Widget-Methods.md#setlayoutlayout)
+  * [chart\(index\)](Widget-Methods.md#chartindex)
+  * [activeChart\(\)](Widget-Methods.md#activechart)
+  * [chartsCount\(\)](Widget-Methods.md#chartscount)
+  * [layout\(\)](Widget-Methods.md#layout)
+  * [setLayout\(layout\)](Widget-Methods.md#setlayoutlayout)
 
 # 订阅图表事件
 
@@ -154,9 +154,9 @@ widget.onShortcut("alt+s", function() {
 | add\_compare | 1.7 | 添加比较工具 |
 | load\_study template | 1.7 | 指标模板被载入后 |
 | onTick |  | 回调将被调用每当最近的K线更新时 |
-| onAutoSaveNeeded |  | 每当用户更改图表时，库将调用该回调。`Chart change`意味着可以撤消用户的任何操作。回调不会在五秒内多次调用。参见[auto\_save\_delay](/book/Widget-Constructor#auto_save_delay) |
+| onAutoSaveNeeded |  | 每当用户更改图表时，库将调用该回调。`Chart change`意味着可以撤消用户的任何操作。回调不会在五秒内多次调用。参见[auto\_save\_delay](Widget-Constructor#auto_save_delay) |
 | onScreenshotReady |  | 每当用户创建屏幕截图和服务器返回创建的图像名称时。 |
-| onMarkClick |  | 每次当用户点击K线上的标记时。[mark on bar](/book/Marks-On-Bars). 标记ID将作为参数传递。 |
+| onMarkClick |  | 每次当用户点击K线上的标记时。[mark on bar](Marks-On-Bars). 标记ID将作为参数传递。 |
 | onTimescaleMarkClick |  | 每当用户单击时间刻度标记时，将调用回调。 标记ID将作为参数传递 |
 | onSelectedLineToolChanged |  | 每次当选择的线工具更改时，将调用回调。 |
 | ![](../images/trading.png)layout\_about\_to\_be\_changed |  | 要更改图表的数量或位置时 |
@@ -175,13 +175,13 @@ widget.onShortcut("alt+s", function() {
 
 #### chart\(\)
 
-返回图表对象，可用于调用[Chart-Methods](/book/Chart-Methods.md)
+返回图表对象，可用于调用[Chart-Methods](Chart-Methods.md)
 
 #### setLanguage\(locale\)
 
 1. `locale`
    :
-   [language code](/book/Localization.md)
+   [language code](Localization.md)
 
 设置Widget的语言。 目前此调用将重新加载图表。请避免使用它。
 
@@ -203,7 +203,7 @@ widget.onShortcut("alt+s", function() {
 
 #### selectLineTool\(drawingId\)
 
-1. `drawingId`: 可以为一个[标识符](/book/Shapes-and-Overrides.md) 或
+1. `drawingId`: 可以为一个[标识符](Shapes-and-Overrides.md) 或
    1. `cursor`
    2. `dot`
    3. `arrow_cursor`
@@ -216,7 +216,7 @@ widget.onShortcut("alt+s", function() {
 
 #### selectedLineTool\(\)
 
-返回所选图形或光标的[标识符](/book/Shapes-and-Overrides.md)（见上文）。
+返回所选图形或光标的[标识符](Shapes-and-Overrides.md)（见上文）。
 
 ### takeScreenshot\(\)
 此方法创建图表的快照并将其上传到服务器。
@@ -226,12 +226,12 @@ widget.onShortcut("alt+s", function() {
 快照的 URL 将作为参数传递给回调函数。
 
 ### lockAllDrawingTools\(\)
-此方法返回一个 [WatchedValue](/book/WatchedValue.md) 对象,
+此方法返回一个 [WatchedValue](WatchedValue.md) 对象,
 可用于读取/设置/监视 "锁定所有绘图工具" 按钮的状态。
 
 ### hideAllDrawingTools()
 
-此方法返回 [WatchedValue](/book/WatchedValue.md) 对象,
+此方法返回 [WatchedValue](WatchedValue.md) 对象,
 该对象可用于读取/设置/监视 "隐藏所有绘图工具" 按钮的状态。
 
 # 保存/加载图表
@@ -242,13 +242,13 @@ widget.onShortcut("alt+s", function() {
 
 将图表状态保存到JS对象。图表库将调用您的回调函数并将状态对象作为参数传递。
 
-此调用是低级[保存/加载API](/book/Saving-and-Loading-Charts.md)的一部分。
+此调用是低级[保存/加载API](Saving-and-Loading-Charts.md)的一部分。
 
 #### load\(state\)
 
 1. `state`: object
 
-从`state`对象加载图表。 此调用是低级[保存/加载API](/book/Saving-and-Loading-Charts.md)的一部分。
+从`state`对象加载图表。 此调用是低级[保存/加载API](Saving-and-Loading-Charts.md)的一部分。
 
 #### getSavedCharts\(callback\)
 
@@ -267,7 +267,7 @@ widget.onShortcut("alt+s", function() {
 
 #### loadChartFromServer\(chartRecord\)
 
-1. `chartRecord`是您使用[getSavedCharts\(callback\)](/book/Widget-Methods.md#getsavedchartscallback) 返回的对象
+1. `chartRecord`是您使用[getSavedCharts\(callback\)](Widget-Methods.md#getsavedchartscallback) 返回的对象
 
 从服务器加载并显示图表。
 
@@ -284,7 +284,7 @@ widget.onShortcut("alt+s", function() {
 
 #### removeChartFromServer\(chartId, onCompleteCallback\)
 
-1. `chartId`:`调用`[getSavedCharts\(callback\)](/book/Widget-Methods.md#getsavedchartscallback)后获得的`id`
+1. `chartId`:`调用`[getSavedCharts\(callback\)](Widget-Methods.md#getsavedchartscallback)后获得的`id`
 2. `onCompleteCallback`: function\(\)
 
 从服务器移除图表。
@@ -428,13 +428,13 @@ widget.headerReady().then(function() {
 
 1. `url` 绝对或相对路径的 `static` 文件夹
 
-该方法在版本`1.3`中引入。从1.4开始，使用[custom\_css\_url](/book/Widget-Constructor.md#loadlastchart)替代。
+该方法在版本`1.3`中引入。从1.4开始，使用[custom\_css\_url](Widget-Constructor.md#loadlastchart)替代。
 
 #### applyOverrides\(overrides\)
 
 _该方法在版本`1.5`中引入_
 
-1. `overrides`为一个对象，和[overrides](/book/Widget-Constructor.md#overrides)相同。
+1. `overrides`为一个对象，和[overrides](Widget-Constructor.md#overrides)相同。
 
 此方法在不重新加载图表的情况下将覆盖应用属性。
 
@@ -442,15 +442,15 @@ _该方法在版本`1.5`中引入_
 
 _该方法在版本`1.9`中引入_
 
-1. `overrides` 为一个对象，和[studies\_overrides](/book/Widget-Constructor.md#studiesoverrides)相同。
+1. `overrides` 为一个对象，和[studies\_overrides](Widget-Constructor.md#studiesoverrides)相同。
 
 此方法将重写指标的指标样式或输入参数，而无需重新加载图表。
 
-# ![](../images/trading.png)交易终端特制
+# ![](images/trading.png)交易终端特制
 
-以下方法只在[交易终端](/book/Trading-Terminal)可用.
+以下方法只在[交易终端](Trading-Terminal)可用.
 
-#### ![](../images/trading.png)watchList\(\)
+#### ![](images/trading.png)watchList\(\)
 
 _该方法在版本`1.9`中引入_
 
@@ -481,37 +481,37 @@ symbols: string[];
 如果没有监视列表或者已有一个等价列表，则返回`false` 否则返回 `true` 。
 
 1.  `deleteList(listId: string)` - 允许您删除商品列表。
-2. `onListChanged()`- 当在监视列表中的商品更改时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](/book/Subscription.md)对象进行订阅和取消订阅。  
+2. `onListChanged()`- 当在监视列表中的商品更改时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](Subscription.md)对象进行订阅和取消订阅。  
 
-3.  `onActiveListChanged()` - 当选择了不同的监视列表时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](/book/Subscription.md)对象进行订阅和取消订阅。
+3.  `onActiveListChanged()` - 当选择了不同的监视列表时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](Subscription.md)对象进行订阅和取消订阅。
 
-4.  `onListAdded()` - - 当新的列表添加到监视列表中时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](/book/Subscription.md)对象进行订阅和取消订阅。
+4.  `onListAdded()` - - 当新的列表添加到监视列表中时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](Subscription.md)对象进行订阅和取消订阅。
  
-5.  `onListRemoved()` - 当监视列表中删除商品列表时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](/book/Subscription.md)对象进行订阅和取消订阅。
+5.  `onListRemoved()` - 当监视列表中删除商品列表时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](Subscription.md)对象进行订阅和取消订阅。
 
-6.  `onListRenamed()` - - 当监视列表中重命名商品列表时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](/book/Subscription.md)对象进行订阅和取消订阅。
+6.  `onListRenamed()` - - 当监视列表中重命名商品列表时, 可以使用此方法进行通知。您可以使用此方法返回的 [Subscription](Subscription.md)对象进行订阅和取消订阅。
 
-# ![](../images/trading.png)多图表布局
+# ![](images/trading.png)多图表布局
 
-#### ![](../images/trading.png)chart\(index\)
+#### ![](images/trading.png)chart\(index\)
 
 1. `index`: 从0开始的图表索引，默认为0。
 
-返回chart对象，用于调用[Chart-Methods](/book/Chart-Methods.md)
+返回chart对象，用于调用[Chart-Methods](Chart-Methods.md)
 
-#### ![](../images/trading.png)activeChart\(\)
+#### ![](images/trading.png)activeChart\(\)
 
-返回当前chart对象，用于调用[Chart-Methods](/book/Chart-Methods.md)
+返回当前chart对象，用于调用[Chart-Methods](Chart-Methods.md)
 
-#### ![](../images/trading.png)chartsCount\(\)
+#### ![](images/trading.png)chartsCount\(\)
 
 返回当前布局的图表数目。
 
-#### ![](../images/trading.png)layout\(\)
+#### ![](images/trading.png)layout\(\)
 
 返回当前布局模式。 可能的值：`4`,`6`,`8`,`s`,`2h`,`2-1`,`2v`,`3h`,`3v`,`3s`.
 
-#### ![](../images/trading.png)setLayout\(layout\)
+#### ![](images/trading.png)setLayout\(layout\)
 
 1. `layout`: Possible values:`4`,`6`,`8`,`s`,`2h`,`2-1`,`2v`,`3h`,`3v`,`3s`.
 
@@ -519,12 +519,12 @@ symbols: string[];
 
 # 也可以看看
 
-* [图表方法](/book/Chart-Methods.md)
-* [定制概述](/book/Customization-Overview.md)
-* [Widgetg构造函数](/book/Widget-Constructor.md)
-* [存储与加载图表](/book/Saving-and-Loading-Charts.md)
-* [指标覆盖默](/book/Studies-Overrides.md)
-* [覆盖](/book/Overrides.md)
+* [图表方法](Chart-Methods.md)
+* [定制概述](Customization-Overview.md)
+* [Widgetg构造函数](Widget-Constructor.md)
+* [存储与加载图表](Saving-and-Loading-Charts.md)
+* [指标覆盖默](Studies-Overrides.md)
+* [覆盖](Overrides.md)
 
 
 

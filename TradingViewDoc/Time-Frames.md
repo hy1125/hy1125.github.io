@@ -17,6 +17,6 @@ Time Frame|Chart Resolution
 5D|5
 1D|1
 
-可以使用相应的widget自定义[默认时间范围列表](/book/Widget-Constructor.md#timeframes)。
+可以使用相应的widget自定义[默认时间范围列表](Widget-Constructor.md#timeframes)。
 
 **备注**：要求周期不适用于当前图表商品的时间范围将被隐藏。

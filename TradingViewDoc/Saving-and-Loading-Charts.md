@@ -4,7 +4,7 @@
 
 图表库支持使用2个级别的API，用以保存/加载图表和指标模板：
 
-1. **低级**：保存/加载功能由`save()` / `load()` [方法](/book/Widget-Methods.md#savecallback)和`createStudyTemplate()` / `applyStudyTemplate()`[方法](Chart-Methods.md#createstudytemplateoptions)提供实现。
+1. **低级**：保存/加载功能由`save()` / `load()` [方法](Widget-Methods.md#savecallback)和`createStudyTemplate()` / `applyStudyTemplate()`[方法](Chart-Methods.md#createstudytemplateoptions)提供实现。
      应该考虑服务器上的存储数据。
      您可以将JSON保存在您希望的位置。 例如，您可以将它们嵌入到已保存的页面或用
 
@@ -31,7 +31,7 @@
 **备注**：手动填充/编辑数据库并不是理想做饭。 请避免这个，因为你可能会伤害Django。
 
 ## 开发自己的后端
-*图表库将HTTP/HTTPS命令发送到`charts_storage_url / charts_storage_api_version / charts？client = client_id＆user = user_id`。 `charts_storage_url`，`chart_storage_api_version`，`client_id`和`user_id`是[widget构造函数](/book/Widget-Constructor.md)的参数。
+*图表库将HTTP/HTTPS命令发送到`charts_storage_url / charts_storage_api_version / charts？client = client_id＆user = user_id`。 `charts_storage_url`，`chart_storage_api_version`，`client_id`和`user_id`是[widget构造函数](Widget-Constructor.md)的参数。
 *您应该执行4个请求的处理：保存图表/加载图表/删除图表/列出图表。
 
 #### 列出图表
