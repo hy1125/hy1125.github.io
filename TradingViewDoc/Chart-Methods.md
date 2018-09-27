@@ -131,7 +131,7 @@ widget.chart().onIntervalChanged().subscribe(null, function(interval, obj) {
 
 #### setResolution\(resolution, callback\)
 
-1. `resolution`: string. 格式化详细参照:[周期](/book/Resolution.md)。
+1. `resolution`: string. 格式化详细参照:[周期](Resolution.md)。
 2. `callback`: function\(\)
 
 更改图表周期。 新周期的数据到达后调用回调。
@@ -289,7 +289,7 @@ widget.activeChart().setTimezone('Asia/Singapore');
 3. `lock`: boolean, 是否锁定指标
 4. `inputs`: \(在`1.2`版本开始\) 指标参数数组, 该数组应包含与指标属性对话框中相同顺序的输入值。
 5. `callback`: function\(`entityId`\)
-6. `overrides`: \(在`1.2`版本开始\) 一个对象 [包含属性](/book/Studies-Overrides.md),覆盖你的新指标 。注意：您不应指定指标名称：应以具有绘图名称的属性路径为起始。
+6. `overrides`: \(在`1.2`版本开始\) 一个对象 [包含属性](Studies-Overrides.md),覆盖你的新指标 。注意：您不应指定指标名称：应以具有绘图名称的属性路径为起始。
 7. `options`: 这个对象只支持关键字`checkLimit`. 如果为 `true` 时，超出限制，将显示指标限制对话框。
     * `checkLimit` - 如果是`true`，则超出限制时将显示指标限制对话框。
     * `priceScale` - 指标的首选价格坐标。 可能的值是：
@@ -429,7 +429,7 @@ widget.activeChart().setTimezone('Asia/Singapore');
 
 在图表上创建新的交易订单并返回可用于调整其属性和行为的API对象。
 
-强烈建议在使用此调用之前阅读[交易元语](/book/Trading-Primitives.md)。
+强烈建议在使用此调用之前阅读[交易元语](Trading-Primitives.md)。
 
 API对象方法：
 
