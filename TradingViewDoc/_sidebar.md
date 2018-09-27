@@ -1,15 +1,10 @@
-* [序言](README.md)
-* [更新日志](CHANGE-LOG.md)
-* [1、Charting Library是什么](Home.md)
-
----
+## [1、Charting Library是什么](Home.md)
 
 ## 2、入门指南
 
 * [2-1、图表库内容](Package-Content.md)
 * [2-2、运行图表库](Running-Your-Charting-Library.md)
 
----
 
 ## 3、数据绑定
 
@@ -20,7 +15,6 @@
 * [3-5、交易时段](Trading-Sessions.md)
 * [3-6、报价](Quotes.md)
 
----
 
 ## 4、图表定制
 
@@ -32,7 +26,6 @@
 * [4-6、服务端定制](Customization-Overview.md#通过数据流定制)
 * [4-7、定制的使用案例](Customization-Use-Cases.md)
 
----
 
 ## 5、交易终端
 
@@ -43,7 +36,6 @@
 * [5-5、账户管理器](Account-Manager.md)
 * [5-6、交易对象和常量](Trading-Objects-and-Constants.md)
 
----
 
 * [6、储存和载入图表](Saving-and-Loading-Charts.md)
 * [7、创建自定义指标](Creating-Custom-Studies.md)
