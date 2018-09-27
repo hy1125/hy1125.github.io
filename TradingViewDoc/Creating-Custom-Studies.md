@@ -122,8 +122,8 @@ __customIndicators = [
 
 请注意，该指标文件是一个JavaScript源文件，它定义了一个指标对象数组。因此，您可以在其中放置多个指标，或者将它们与我们为您编译的指标组合起来。
 
-1. 使用 [indicators_file_name](/book/Widget-Constructor.md#indicatorsfilename) Widget构造函数的选项来从指标文件加载自定义指标。
-1. 图表准备好后，更新您的Widget初始化代码以[创建](/book/Chart-Methods.md#createstudyname-forceoverlay-lock-inputs-callback-overrides-options) 此指标。
+1. 使用 [indicators_file_name](Widget-Constructor.md#indicatorsfilename) Widget构造函数的选项来从指标文件加载自定义指标。
+1. 图表准备好后，更新您的Widget初始化代码以[创建](Chart-Methods.md#createstudyname-forceoverlay-lock-inputs-callback-overrides-options) 此指标。
 
 ## 例子
 
@@ -226,7 +226,7 @@ __customIndicators = [
 ];
 ```
 
-* 使用[indicators_file_name](/book/Widget-Constructor.md#indicatorsfilename) 选项将指标插入图表。
+* 使用[indicators_file_name](Widget-Constructor.md#indicatorsfilename) 选项将指标插入图表。
 * 更改Widget的初始化代码。 添加如下内容：
 
 ```javascript

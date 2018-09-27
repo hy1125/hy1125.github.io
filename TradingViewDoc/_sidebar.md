@@ -1,4 +1,5 @@
-## [1、Charting Library是什么](Home.md)
+## 1、Charting Library是什么
+* [Charting Library是什么](Home.md)
 
 ## 2、入门指南
 
