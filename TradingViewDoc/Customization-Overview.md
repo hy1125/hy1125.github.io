@@ -27,7 +27,7 @@
 };
 ```
 
-在[JS API](/book/JS-Api.md#onreadycallback)可以找到更详细的说明。
+在[JS API](JS-Api.md#onreadycallback)可以找到更详细的说明。
 
 ## [在客户端进行定制](#在客户端进行定制)
 
@@ -73,12 +73,12 @@ var widget = new TradingView.widget({
 });
 ```
 
-详情参考：[Widget构造器](/book/Widget-Constructor.md)
+详情参考：[Widget构造器](Widget-Constructor.md)
 
 # 也可以看看
 
-* [Widget方法](/book/Widget-Methods.md)
-* [定制的使用案例](/book/Customization-Use-Cases.md)
+* [Widget方法](Widget-Methods.md)
+* [定制的使用案例](Customization-Use-Cases.md)
 
 
 

@@ -63,15 +63,15 @@
 
 #### onDataLoaded\(\)
 
-您可以使用此方法返回的订阅[Subscription](/book/Subscription.md)对象进行订阅，以便在加载新历史K线时通知，您还可以使用此订阅对象取消此订阅事件。
+您可以使用此方法返回的订阅[Subscription](Subscription.md)对象进行订阅，以便在加载新历史K线时通知，您还可以使用此订阅对象取消此订阅事件。
 
 #### onSymbolChanged\(\)
 
-您可以使用此方法返回的[Subscription](/book/Subscription.md)对象进行订阅，以便在更改商品时通知，您还可以使用此订阅对象取消此订阅事件。
+您可以使用此方法返回的[Subscription](Subscription.md)对象进行订阅，以便在更改商品时通知，您还可以使用此订阅对象取消此订阅事件。
 
 #### onIntervalChanged\(\)
 
-您可以使用此方法返回的[Subscription](/book/Subscription.md)对象进行订阅，以便在更改时间周期时通知，您还可以使用此订阅对象取消此订阅事件。
+您可以使用此方法返回的[Subscription](Subscription.md)对象进行订阅，以便在更改时间周期时通知，您还可以使用此订阅对象取消此订阅事件。
 当事件被触发时，它将提供以下参数：
 1. `interval`: 新周期  
 2. `timeframeParameters`: 此对象只有一个字段 `timeframe`. 
@@ -107,7 +107,7 @@ widget.chart().onIntervalChanged().subscribe(null, function(interval, obj) {
 
 *1.13版本开始*
 
-您可以使用此功能返回的[Subscription](/book/Subscription.md)对象进行订阅，以便在可见时间范围更改时得到通知。 
+您可以使用此功能返回的[Subscription](Subscription.md)对象进行订阅，以便在可见时间范围更改时得到通知。 
 您还可以使用同一对象取消订阅该事件。
 
 # 图表动作
@@ -247,7 +247,7 @@ STYLE_PB* = 7;
 
 1.  `timezone`: string  
 
-查看[timezone](book/Widget-Constructor.md#timezone)更多信息
+查看[timezone](Widget-Constructor.md#timezone)更多信息
 
 例:
 
@@ -411,7 +411,7 @@ widget.activeChart().setTimezone('Asia/Singapore');
 
 将指标模板保存到JS对象。 图表库将调用您的回调函数并将状态对象作为参数传递。
 
-此调用是低级[存储与加载图表](/book/Saving-and-Loading-Charts.md)的一部分。
+此调用是低级[存储与加载图表](Saving-and-Loading-Charts.md)的一部分。
 
 #### applyStudyTemplate\(template\)
 
@@ -419,7 +419,7 @@ widget.activeChart().setTimezone('Asia/Singapore');
 
 从状态对象加载指标模板。
 
-此调用是低级[存储与加载图表](/book/Saving-and-Loading-Charts.md)的一部分。
+此调用是低级[存储与加载图表](Saving-and-Loading-Charts.md)的一部分。
 
 # 交易元语（Trading Primitives）
 
@@ -504,7 +504,7 @@ widget.chart().createOrderLine()
 
 在图表上创建新的交易头寸并返回一个可用于调整其属性和行为的API对象。
 
-强烈建议在使用此调用之前阅读[交易元语](/book/Trading-Primitives.md)。
+强烈建议在使用此调用之前阅读[交易元语](Trading-Primitives.md)。
 
 API对象方法：
 
@@ -586,7 +586,7 @@ widget.chart().createPositionLine()
 
 在图表上创建新的交易执行并返回可用于控制执行属性的API对象。
 
-强烈建议在使用此调用之前阅读[交易元语](/book/Trading-Primitives.md)。
+强烈建议在使用此调用之前阅读[交易元语](Trading-Primitives.md)。
 
 API对象具有下面列出的一组属性。 每个属性应通过各自的访问器调用。
 例如，如果你想使用`Extend Left`属性，那么请使用`setExtendLeft()`和`getExtendLeft()`方法。
@@ -651,7 +651,7 @@ widget.chart().createExecutionShape()
 
 #### resolution\(\)
 
-返回图表的周期。格式在这个[周期](/book/Resolution.md)中描述。
+返回图表的周期。格式在这个[周期](Resolution.md)中描述。
 
 #### getVisibleRange\(\)
 
@@ -717,12 +717,12 @@ widget.chart().createExecutionShape()
 
 # 也可以看看
 
-* [Widget方法](/book/Widget-Methods.md)
-* [定制概述](/book/Customization-Overview.md)
-* [Widgetg构造函数](/book/Widget-Constructor.md)
-* [存储于加载图表](/book/Saving-and-Loading-Charts.md)
-* [指标覆盖默认参数](/book/Studies-Overrides.md)
-* [覆盖默认参数](/book/Overrides.md)
+* [Widget方法](Widget-Methods.md)
+* [定制概述](Customization-Overview.md)
+* [Widgetg构造函数](Widget-Constructor.md)
+* [存储于加载图表](Saving-and-Loading-Charts.md)
+* [指标覆盖默认参数](Studies-Overrides.md)
+* [覆盖默认参数](Overrides.md)
 
 
 <!--stackedit_data:

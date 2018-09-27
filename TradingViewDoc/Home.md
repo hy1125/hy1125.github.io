@@ -19,7 +19,7 @@
 
 ### 交易终端
 
-![](../images/trading.png)交易终端是为强大图表配备的随时可用的产品，使图表具备交易功能。[阅读更多](Trading-Terminal.md)
+![](images/trading.png)交易终端是为强大图表配备的随时可用的产品，使图表具备交易功能。[阅读更多](Trading-Terminal.md)
 
 ### 最佳实践
 

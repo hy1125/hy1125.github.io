@@ -2,7 +2,7 @@
 
 ---
 
-![](/images/trading.png)此页面上的所有内容仅适用于\[\[交易终端](Trading-Terminal.md)\]\]。
+![](images/trading.png)此页面上的所有内容仅适用于\[\[交易终端](Trading-Terminal.md)\]\]。
 
 帐户管理器是一个显示交易信息的交互式表格。
 

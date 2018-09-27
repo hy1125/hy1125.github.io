@@ -1,6 +1,6 @@
 # 委托
 
-委托对象由一些[Trading Terminal](book/Trading-Terminal.md)方法返回，并且需要使用[Account Manager](book/Account-Manager.md)。 使用这个对象，你可以更新和更新一个事件。
+委托对象由一些[Trading Terminal](Trading-Terminal.md)方法返回，并且需要使用[Account Manager](Account-Manager.md)。 使用这个对象，你可以更新和更新一个事件。
 
 ### subscribe(object, member)
 订阅事件.
