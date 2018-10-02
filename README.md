@@ -4,4 +4,6 @@
 ## RecordPlayer
 [https://hy1125.github.io/RecordPlayer](https://hy1125.github.io/RecordPlayer/)
 ## NodeJs
-[NodeJs文档](https://hy1125.github.io/docs/)
+[NodeJs文档](https://hy1125.github.io/NodeJsDocs/)
+## TradingView
+[TradingView文档](https://hy1125.github.io/TradingViewDocs/)
