@@ -106,6 +106,18 @@
 			var b = document.querySelector("body");
 			b.style.background = 'linear-gradient(to left bottom, hsl(' + Math.floor(255 * Math.random()) + ', 100%, 85%) 0%,hsl(' + Math.floor(255 * Math.random()) + ', 100%, 85%) 100%)';
 		}
+		window.onload = function() {
+		var oBox = document.querySelector("body");
+
+		oBox.onmousedown = function() {
+		    document.onmousemove = function(ev) {
+			oBox.style.background = 'linear-gradient(to left bottom, hsl(' + Math.floor(255 * Math.random()) + ', 100%, 85%) 0%,hsl(' + Math.floor(255 * Math.random()) + ', 100%, 85%) 100%)';
+		    };
+		    document.onmouseup=function(){
+			document.onmousemove=null;
+		    };
+		};
+	    };
 	</script>
 
 </html>
